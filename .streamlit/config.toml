@@ -1,0 +1,23 @@
+[theme]
+base = "light"
+primaryColor = "#2563eb"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f8fafc"
+textColor = "#0f172a"
+linkColor = "#1d4ed8"
+borderColor = "#e2e8f0"
+baseRadius = "10px"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap, -apple-system, Segoe UI, Roboto, sans-serif"
+codeFont = "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+chartCategoricalColors = ["#2563eb", "#059669", "#d97706", "#dc2626", "#64748b"]
+
+[client]
+# Hide the "Deploy" button; keep the small menu.
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+# headless = true skips Streamlit's first-run "Email:" prompt; the launchers open the browser.
+headless = true
